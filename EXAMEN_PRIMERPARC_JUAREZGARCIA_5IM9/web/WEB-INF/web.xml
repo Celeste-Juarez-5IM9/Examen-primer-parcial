@@ -1,0 +1,12 @@
+<web-app>
+    
+    <servlet>
+        <servlet-name>convertir</servlet-name>
+        <servlet-class>CONVERTIR.convertir</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>convertir</servlet-name>
+        <url-pattern>/convertir</url-pattern>
+    </servlet-mapping>
+   
+</web-app>
